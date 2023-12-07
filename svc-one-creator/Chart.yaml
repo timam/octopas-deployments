@@ -1,0 +1,10 @@
+apiVersion: v2
+name: demo-chart
+
+type: application
+version: 1.0.0
+
+dependencies:
+  - name: argocd-app-gen-chart
+    version: "1.0.8"
+    repository: "file://charts/argocd-app-gen-chart-1.0.8.tgz"

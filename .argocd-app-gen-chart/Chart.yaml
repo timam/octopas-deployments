@@ -1,0 +1,4 @@
+apiVersion: v2
+description: generate argocd app based on branch
+name: argocd-app-gen-chart
+version: 1.0.8
