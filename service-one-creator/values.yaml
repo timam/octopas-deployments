@@ -1,4 +1,3 @@
 deployment:
   branches:
-    - feature-abc
-    - feature-xyz
+    - asd
