@@ -1,0 +1,10 @@
+apiVersion: v2
+name: service-one
+
+type: application
+version: 1.0.0
+
+dependencies:
+  - name: deployment
+    version: "0.1.0"
+    repository: "file://charts/deployment-0.1.0.tgz"

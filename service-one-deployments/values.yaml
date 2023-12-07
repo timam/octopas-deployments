@@ -1,0 +1,8 @@
+deployment:
+  microservice_name: "service-one"
+  docker_image: "timam/canary-poc"
+  service_type: "NodePort"
+  service_port: "8080"
+  container_port: "8080"
+  env_vars:
+    YET_ANOTHER_ENV : awesome

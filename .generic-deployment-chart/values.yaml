@@ -1,0 +1,9 @@
+namespace: ""
+microservice_name: ""
+docker_image: ""
+
+service_type: ""
+service_port: ""
+container_port: ""
+
+env_vars:
